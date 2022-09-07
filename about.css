@@ -1,0 +1,42 @@
+/* body{
+    background-color: rgb(130, 223, 130);
+} */
+
+
+.aboutus{
+    display: flex;
+    /* flex-direction: column; */
+}
+
+/* BOX SHADOW */
+.about{
+    padding: 23px 12px;
+    margin: 23px 12px;
+    background-color: burlywood;
+     /* for blur radius write x-axis then y-axis then blur radius */
+     box-shadow: 7px 5px 20px;
+}
+
+/* TEXT SHADOW */
+.about h2{
+    /* blur effect */
+    text-shadow: 3px 4px 3px white;
+}
+
+#image{
+    margin: 3px 520px;
+}
+
+#para{
+    display: flex;
+    flex-direction: column;
+    padding: 14px 12px;
+    margin: 14px 12px;
+    background-color: burlywood;
+    box-shadow: 7px 5px 20px;
+}
+
+#para h2{
+    /* blur effect */
+    text-shadow: 3px 4px 3px white;
+}

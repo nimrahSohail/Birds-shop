@@ -1,0 +1,70 @@
+.container{
+    display: grid;
+    /* grid-template-columns: 300px 100px 100px; */
+    /* grid-template-columns: 300px auto 100px; */
+
+    /* screen 1 4 1 kay ratio ma divide hojai gi */
+    grid-template-columns: 1fr 4fr 1fr;
+
+    grid-template-columns: repeat(3,auto);
+
+    grid-gap: 2rem;
+}
+.item{
+    background-color: rgb(96, 117, 3);
+    border: 2px solid black;
+    padding: 15px 3px;
+    color: white;
+}
+/* .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+} */
+
+/* rounded icon */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 13px 2px;
+    display: flex;
+    /* flex-direction: row; */
+    /* margin-right: 120px; */
+    /* margin: 20px 250px;  */
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}  
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+  
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+  
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+  
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
